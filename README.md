@@ -9,11 +9,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/belliedmonkey/belliedmonkey-translator/actions/workflows/test.yml"><img alt="tests" src="https://github.com/belliedmonkey/belliedmonkey-translator/actions/workflows/test.yml/badge.svg"></a>
-  <a href="LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-blue"></a>
+  <a href="https://github.com/belliedmonkey/belliedmonkey-translator-oss/actions/workflows/test.yml"><img alt="tests" src="https://github.com/belliedmonkey/belliedmonkey-translator-oss/actions/workflows/test.yml/badge.svg"></a>
+  <a href="LICENSE"><img alt="license" src="https://img.shields.io/github/license/belliedmonkey/belliedmonkey-translator-oss"></a>
   <a href="https://belliedmonkey.cc"><img alt="website" src="https://img.shields.io/badge/site-belliedmonkey.cc-c67139"></a>
   <a href="https://belliedmonkey.cc/discord"><img alt="discord" src="https://img.shields.io/badge/chat-Discord-5865F2"></a>
-  <a href="https://github.com/belliedmonkey/belliedmonkey-translator"><img alt="GitHub stars" src="https://img.shields.io/github/stars/belliedmonkey/belliedmonkey-translator?style=social"></a>
+  <a href="https://github.com/belliedmonkey/belliedmonkey-translator-oss"><img alt="GitHub stars" src="https://img.shields.io/github/stars/belliedmonkey/belliedmonkey-translator-oss?style=social"></a>
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@
   ·
   <a href="https://belliedmonkey.com/"><b>大肚猴翻译 · 中国站</b></a>
   ·
-  <a href="https://github.com/belliedmonkey/belliedmonkey-translator"><b>★ Star this repo</b></a>
+  <a href="https://github.com/belliedmonkey/belliedmonkey-translator-oss"><b>★ Star this repo</b></a>
 </p>
 
 <p align="center">
