@@ -65,10 +65,15 @@
 
 ## Source and license
 
-This tree is the **MIT-licensed OSS root**. It is published as its own repository,
-[`belliedmonkey-translator-oss`](https://github.com/belliedmonkey/belliedmonkey-translator-oss),
-with a fresh orphan history (no GPL commits). The store builds are cut from a separate
-**GPL-3.0-or-later** branch (`main`) of the original repository; the two lanes are never merged.
+**Open client, MIT.** The BelliedMonkey client — browser extension, desktop app, CLI/agent, local protocol, and bring-your-own-key (BYOK) — is open source under MIT. This is an **orphan repository with a fresh root**; the closed hosted code was **stripped out before the tree was cut**, so it is not in this repository under another name. The existing [`belliedmonkey-translator`](https://github.com/belliedmonkey/belliedmonkey-translator) repository remains GPL-3.0-or-later and its history is unchanged.
+
+**Not included:** the hosted service. Accounts, subscriptions and billing, the hosted inference gateway, cloud sync, compliance implementation, and the telemetry pipeline stay closed. The open client uses the public hosted-gateway contract; upstream provider keys never ship in it.
+
+**BYOK is not a trial.** Your key stays on your device and goes directly to the provider you choose — no subscription required, and no subscription is on sale at this stage. The client is complete for local use. A hosted paid plan is planned but **not available yet**; pricing is **TBA**. Until a plan exists, the current stage is BYOK plus a free allowance sized to last.
+
+One product, two builds: `node build.js` (global) and `node build.js --flavor china` (China) from the same source.
+
+This tree is the **MIT-licensed OSS root**, published as its own repository with a fresh orphan history (no GPL commits). The store builds are cut from a separate **GPL-3.0-or-later** branch (`main`) of the original repository; the two lanes are never merged.
 
 ```bash
 git clone https://github.com/belliedmonkey/belliedmonkey-translator-oss.git
@@ -86,6 +91,7 @@ The same orphan tip is mirrored on the original repository as branch `oss/mit-or
 - **License:** [`LICENSE`](LICENSE) (MIT) · **notices:** [`NOTICE`](NOTICE)
 - **OSS lane rules:** [`docs/oss-release.md`](docs/oss-release.md) ·
   **public/private boundary:** [`BOUNDARY.md`](BOUNDARY.md)
+- **Hosted subscription:** **TBA** — not on sale yet; no pricing link until there is something to buy.
 
 Installing from a store is still the normal way to use it; the source build is for
 contributors, auditors, and people who want to run it without a store.

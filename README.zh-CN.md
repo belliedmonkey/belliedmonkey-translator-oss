@@ -65,6 +65,14 @@
 
 ## 源码与许可
 
+**开放客户端，MIT。** BelliedMonkey 客户端——浏览器扩展、桌面端、CLI/Agent、本地协议与 BYOK（自带密钥）——以 MIT 开源。这是一个**孤儿仓、全新根**；闭源托管代码在切仓前已被**剥离**，不是换个名字留在这个仓里。现有 [`belliedmonkey-translator`](https://github.com/belliedmonkey/belliedmonkey-translator) 仓库继续为 GPL-3.0-or-later，history 不变。
+
+**不含托管服务。** 账号、订阅与计费、托管推理网关、云同步、合规实现、遥测管道保持闭源。开放客户端通过公开的托管网关契约接入；上游 provider 密钥不会进客户端。
+
+**BYOK 不是试用。** 密钥只存本机，直连你选择的 provider，不需要订阅；现阶段也没有在售的订阅。客户端本地使用是完整的。托管付费计划在计划中，但**尚未上线**，定价为 **TBA**。在此之前，现阶段是 BYOK + 免费额度，额度按可撑较长时间来定。
+
+同一产品两个构建：`node build.js`（国际）与 `node build.js --flavor china`（国内），同一份源码。
+
 本树是 **MIT 的 OSS 根**，独立发布在
 [`belliedmonkey-translator-oss`](https://github.com/belliedmonkey/belliedmonkey-translator-oss)
 仓库，history 是全新的 orphan 根（不含 GPL 提交）。商店构建从原仓库另一条
@@ -86,6 +94,7 @@ node build.js
 - **许可证：** [`LICENSE`](LICENSE)（MIT）· **第三方声明：** [`NOTICE`](NOTICE)
 - **OSS 轨规则：** [`docs/oss-release.md`](docs/oss-release.md) ·
   **公私边界：** [`BOUNDARY.md`](BOUNDARY.md)
+- **托管订阅：** **TBA**，尚未开售；没有可买的东西之前不挂定价链接。
 
 日常使用仍建议从商店安装；源码构建是给贡献者、审计者和不想走商店的人。
 
