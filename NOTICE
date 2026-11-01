@@ -1,9 +1,9 @@
 # NOTICE
 
 This product includes third-party components. Their licenses are **not** changed by the
-project's own license (see `LICENSE`). The project license at this branch is
-GPL-3.0-or-later; the OSS orphan root (`oss/mit-orphan`) uses MIT. Third-party components
-keep their original licenses in both cases.
+project's own license (see `LICENSE`). The project license at this branch is MIT; the store
+tip (`main` / `release/**` of `belliedmonkey-translator`) remains GPL-3.0-or-later.
+Third-party components keep their original licenses in both cases.
 
 ## Bundled in the distributed artifact
 
