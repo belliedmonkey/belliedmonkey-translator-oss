@@ -563,7 +563,7 @@ Same reading model — original paragraph, translation right under it, dual vide
 <details>
 <summary><b>Is it really free? What is the catch?</b></summary>
 
-The extension and the apps are free with no ads, and the free path has no paid tier and no in-app purchase. An optional hosted plan may be offered as an add-on; it never replaces the own-key path, and running out of quota falls back to your own key. The only cost of the free path is the translation itself: with your own AI key you pay the provider directly at their prices (roughly $0.0004 per page on a budget model); the free Google channel costs nothing but is general-purpose machine translation. After sign-in you can claim a small free credit we pay for (about $0.20); on that path your text passes through our relay to the model provider and is not stored. Details: [belliedmonkey.cc/pricing](https://belliedmonkey.cc/pricing.html).
+The extension and the apps are free with no ads, and the free path has no paid tier and no in-app purchase. An optional hosted plan may be offered as an add-on; it never replaces the own-key path, and running out of quota falls back to your own key. The only cost of the free path is the translation itself: with your own AI key you pay the provider directly at their prices (roughly $0.0004 per page on a budget model); the free Google channel costs nothing but is general-purpose machine translation. After sign-in you can claim a small free credit we pay for (about $0.20); on that path your text passes through our relay to the model provider and is not stored. Hosted subscription: **TBA** — not on sale yet.
 </details>
 
 <details>
